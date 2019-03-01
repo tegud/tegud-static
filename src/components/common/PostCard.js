@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { Tags } from '@tryghost/helpers-gatsby'
-import _ from `lodash`
+import _ from 'lodash'
 
 const CardTags = ({ post }) => {
   const { tags } = post;
