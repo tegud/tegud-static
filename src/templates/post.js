@@ -1,9 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { DateTime } from "luxon";
 
 import { Layout } from '../components/common'
 import { MetaData } from '../components/common/meta'
+import Tags from '../components/common/Tags'
 
 /**
 * Single post view (/:slug)
@@ -14,6 +16,7 @@ import { MetaData } from '../components/common/meta'
 const Post = ({ data, location }) => {
     const post = data.ghostPost
     const featureImageBackgroundImage = `url(${post.feature_image})`;
+    const publishedAt = DateTime.fromISO(post.published_at).toFormat('dd MMMM yyyy');
 
     return (
             <>
@@ -29,6 +32,7 @@ const Post = ({ data, location }) => {
                                 <figure className="post-feature-image" style={{ backgroundImage: featureImageBackgroundImage }} title={ post.title }></figure> : null }
                             <section className="content post-full-content">
                                 <h1 className="content-title">{post.title}</h1>
+                                <div className="post-date-and-tags">{publishedAt} <Tags post={post} /></div>
 
                                 {/* The main post content */ }
                                 <section

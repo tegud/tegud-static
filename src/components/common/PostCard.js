@@ -1,28 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
-import { Tags } from '@tryghost/helpers-gatsby'
+import Tags from './Tags'
 import _ from 'lodash'
-
-const CardTags = ({ post }) => {
-  const { tags, id } = post;
-
-  if (!tags.length) {
-    return <span />;
-  }
-
-  // return <span>on <Tags post={post} visibility="public" autolink={false} /></span>;
-  return <span> on {tags.map(({ name, slug }, i) => {
-      const key = `${id}-tag-${slug}`;
-      const link = `/tag/${slug}`;
-      const separator = i+1 !== tags.length ? ', ' : <></>;
-
-      return <>
-        <Link key={key} to={link}>{name}</Link>{separator}
-      </>;
-    })}
-  </span>;
-}
 
 const PostCard = ({ post }) => {
     const url = `/${post.slug}/`;
@@ -42,7 +22,7 @@ const PostCard = ({ post }) => {
                   <img className="author-thumb" src={post.primary_author.profile_image} alt={post.primary_author.name}/> :
                   <img className="default-avatar" src="/images/icons/avatar.svg" alt={post.primary_author.name}/>
               }
-              <span>{ post.primary_author.name }</span> <CardTags post={post} />
+              <span>{ post.primary_author.name }</span> <Tags post={post} />
 
           </footer>
         </article>

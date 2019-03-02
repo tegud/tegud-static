@@ -50,6 +50,7 @@
     "gatsby-source-ghost": "3.3.0",
     "gatsby-transformer-sharp": "2.1.14",
     "lodash": "4.17.11",
+    "luxon": "^1.11.3",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-helmet": "5.2.0"

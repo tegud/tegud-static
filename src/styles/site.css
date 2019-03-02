@@ -667,6 +667,32 @@ button {
   background-size: cover;
 }
 
+.content-body {
+  margin-top: 30px;
+}
+
+.content-body img {
+  display: block;
+  max-width: 125%;
+  height: auto;
+  padding: 0.6em 0;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.content-title {
+  margin-bottom: 5px;
+}
+
+.post-date-and-tags {
+  color: #9EABB3;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+}
+
 /* ==========================================================================
    12. Media Queries - Smaller than 900px
    ========================================================================== */
