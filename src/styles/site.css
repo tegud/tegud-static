@@ -635,6 +635,27 @@ button {
     border-bottom: #bbc7cc 1px solid;
 }
 
+
+.author-header-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.author-header img
+{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 100%;
+}
+
+.author-header {
+  margin-bottom: 30px;
+}
 /* ==========================================================================
    12. Media Queries - Smaller than 900px
    ========================================================================== */
@@ -813,6 +834,12 @@ button {
         max-height: 20vh;
         min-height: 160px;
         padding: 10% 0;
+    }
+
+    .author-header img
+    {
+      width: 150px;
+      height: 150px;
     }
 
     .main-nav {
@@ -1073,7 +1100,6 @@ button {
     }
 
 }
-
 
 /* ==========================================================================
    14. Animations
