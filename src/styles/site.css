@@ -37,7 +37,7 @@ sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 img { border: 0; }
 svg:not(:root) { overflow: hidden; }
-figure { margin: 1em 40px; }
+figure { margin: 0; }
 hr { box-sizing: content-box; height: 0; }
 pre { overflow: auto; }
 code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
@@ -613,6 +613,10 @@ button {
   margin: 20px auto;
 }
 
+.post-full-content {
+  margin-top: 40px;
+}
+
 .site-footer {
     width: 80%;
     max-width: 710px;
@@ -656,6 +660,13 @@ button {
 .author-header {
   margin-bottom: 30px;
 }
+
+.post-feature-image {
+  height: 45vh;
+  background: #222 no-repeat center center;
+  background-size: cover;
+}
+
 /* ==========================================================================
    12. Media Queries - Smaller than 900px
    ========================================================================== */

@@ -42,9 +42,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         </div>
 
         <div>
-          <main id="content" class="content" role="main">
-            {children}
-          </main>
+          {children}
         </div>
 
         <footer class="site-footer clearfix">

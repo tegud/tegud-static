@@ -26,7 +26,7 @@ const Author = ({ data, location, pageContext }) => {
             />
             <Layout>
                 <div className="container">
-                    <header className="author-header">
+                    <header className="author-header content">
                         <div className="author-header-content">
                             <h1>{author.name}</h1>
                             {author.bio && <p>{author.bio}</p>}

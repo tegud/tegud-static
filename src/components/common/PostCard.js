@@ -32,7 +32,7 @@ const PostCard = ({ post }) => {
     });
 
     return (
-        <article className="post">
+        <article className="content post">
           <Link to={url} className="post-card-title">
             <h2 className="post-title">{post.title}</h2>
           </Link>

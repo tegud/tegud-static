@@ -13,6 +13,7 @@ import { MetaData } from '../components/common/meta'
 */
 const Post = ({ data, location }) => {
     const post = data.ghostPost
+    const featureImageBackgroundImage = `url(${post.feature_image})`;
 
     return (
             <>
@@ -23,12 +24,10 @@ const Post = ({ data, location }) => {
                 />
                 <Layout>
                     <div className="container">
-                        <article className="content">
+                        <article>
                             { post.feature_image ?
-                                <figure className="post-feature-image">
-                                    <img src={ post.feature_image } alt={ post.title } />
-                                </figure> : null }
-                            <section className="post-full-content">
+                                <figure className="post-feature-image" style={{ backgroundImage: featureImageBackgroundImage }} title={ post.title }></figure> : null }
+                            <section className="content post-full-content">
                                 <h1 className="content-title">{post.title}</h1>
 
                                 {/* The main post content */ }

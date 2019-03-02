@@ -50,6 +50,9 @@ const ArticleMetaGhost = ({ data, settings, canonical }) => {
                 {publicTags.map((keyword, i) => (<meta property="article:tag" content={keyword} key={i} />))}
                 {author.facebookUrl && <meta property="article:author" content={author.facebookUrl} />}
 
+                <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+                <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css?v=3e6f8b70c5" />
+                
                 <meta name="twitter:title"
                     content={
                         ghostPost.twitter_title ||
