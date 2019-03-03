@@ -180,5 +180,11 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,
+        {
+          resolve: `gatsby-plugin-google-analytics`,
+          options: {
+            trackingId: "UA-8186156-1",
+          },
+        },
     ],
 }
