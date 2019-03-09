@@ -26,12 +26,12 @@ workflows:
   deploy:
     jobs:
       - build
-      - deploy
-        requires:
-          - build
-      - lighthouse
-        requires:
-          - deploy
-      - performance-budget
-        requires:
-          - deploy
+      - deploy:
+          requires:
+            - build
+      - lighthouse:
+          requires:
+            - deploy
+      - performance-budget:
+          requires:
+            - deploy
