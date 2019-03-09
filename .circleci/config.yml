@@ -23,7 +23,15 @@ jobs:
             echo "Running Performance Budget"
 workflows:
   version: 2
-  build_and_deploy:
+  deploy:
     jobs:
+      - build
+      - deploy
+        requires:
+          - build
       - lighthouse
+        requires:
+          - deploy
       - performance-budget
+        requires:
+          - deploy
