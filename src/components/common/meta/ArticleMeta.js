@@ -28,6 +28,8 @@ const ArticleMetaGhost = ({ data, settings, canonical }) => {
                 <meta name="description" content={ghostPost.meta_description || ghostPost.excerpt} />
                 <link rel="canonical" href={canonical} />
 
+                <script src="/scripts/boomerang.min.20190323.2.js" />
+
                 <meta property="og:site_name" content={settings.title} />
                 <meta name="og:type" content="article" />
                 <meta name="og:title"
@@ -52,7 +54,7 @@ const ArticleMetaGhost = ({ data, settings, canonical }) => {
 
                 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
                 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css?v=3e6f8b70c5" />
-                
+
                 <meta name="twitter:title"
                     content={
                         ghostPost.twitter_title ||

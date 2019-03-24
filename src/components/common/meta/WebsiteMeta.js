@@ -35,6 +35,8 @@ const WebsiteMeta = ({ data, settings, canonical, title, description, image, typ
                 {settings.twitter && <meta name="twitter:site" content={`https://twitter.com/${settings.twitter.replace(/^@/, ``)}/`} />}
                 {settings.twitter && <meta name="twitter:creator" content={settings.twitter} />}
 
+                <script src="/scripts/boomerang.min.20190323.2.js" />
+
                 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
                 <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css?v=3e6f8b70c5" />
 
