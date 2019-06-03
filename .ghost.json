@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://vn.w88-yes.com",
+    "contentApiKey": "52eabfbcba8db9d26c7c4f19e7"
+  },
+  "production": {
+    "apiUrl": "https://vn.w88-yes.com",
+    "contentApiKey": "52eabfbcba8db9d26c7c4f19e7"
+  }
+}
