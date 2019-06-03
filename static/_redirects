@@ -1,5 +1,5 @@
 # Netlify redirects file, edit with your domain
 # https://www.netlify.com/docs/redirects/
 
-https://tegud.netlify.com/*      https://www.tegud.net/:splat    301!
-http://tegud.netlify.com/*       https://www.tegud.net/:splat    301!
+https://w88.netlify.com/*      https://www.w88-yes.com/:splat    301!
+http://w88.netlify.com/*       https://www.w88-yes.com/:splat    301!
