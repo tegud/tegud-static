@@ -38,7 +38,7 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, Update
+            © {new Date().getFullYear()}, Cập nhật
             {` `}
             <a href="https://bit.ly/w88vietnamfc">W88 Link</a>
           </footer>
