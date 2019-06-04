@@ -32,12 +32,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
         <div class="nav-bar title-font">
           <div class="nav-bar-inner">
-            <ul class="social-buttons">
-              <li><a href="https://www.github.com/tegud" target="_blank" class="fa fa-github"></a></li>
-              <li><a href="https://www.twitter.com/tegud" target="_blank" class="fa fa-twitter-square"></a></li>
-              <li><a href="https://www.linkedin.com/in/tegud" target="_blank" class="fa fa-linkedin-square"></a></li>
-            </ul>
-            <a href="https://www.tegud.net"><h1>tegud.net</h1></a>
+            <ul class="social-buttons">          
+    <li><a href="https://www.twitter.com/w88vietnamfc" target="_blank" class="fa fa-twitter-square"></a></li> </ul>
+        <a href="https://www.w88-yes.com"><h1>w88-yes.com</h1></a>
           </div>
         </div>
 
@@ -46,7 +43,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         </div>
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="https://www.tegud.net">tegud.net</a> &copy; 2019</section>
+            <section class="copyright"><a href="https://www.w88-yes.com">w88-yes.com</a> &copy; 2019</section>
         </footer>
     </>
     )
