@@ -35,9 +35,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <ul class="social-buttons">
               <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-twitter-square"></a></li>
        <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-facebook-square"></a></li>
-        <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-instagram-square"></a></li>
+        <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-youtube-square"></a></li>
  </ul>
-            <a href="https://www.w88-yes.com"><h1>W88💵Free👉</h1></a>
+            <a href="https://www.w88-yes.com"><h1>W88 💵 Free 👉</h1></a>
           </div>
         </div>
 
