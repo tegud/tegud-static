@@ -33,9 +33,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         <div class="nav-bar title-font">
           <div class="nav-bar-inner">
             <ul class="social-buttons">
-              <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-github"></a></li>
-              <li><a href="https://www.w88wasia.com/default.aspx?affiliateid=42353" target="_blank" class="fa fa-twitter-square"></a></li>
-              <li><a href="https://affiliate.w88wap.com/Track.aspx?affiliateid=42353&language=vn" target="_blank" class="fa fa-linkedin-square"></a></li>
+              <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-forward"></a></li>
+              <li><a href="https://www.w88wasia.com/default.aspx?affiliateid=42353" target="_blank" class="fa fa-usd-circle"></a></li>
+              <li><a href="https://affiliate.w88wap.com/Track.aspx?affiliateid=42353&language=vn" target="_blank" class="fa fa-hand-holding-usd"></a></li>
             </ul>
             <a href="https://www.tegud.net"><h1>tegud.net</h1></a>
           </div>
