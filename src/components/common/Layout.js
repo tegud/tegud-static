@@ -34,10 +34,10 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
           <div class="nav-bar-inner">
             <ul class="social-buttons">
               <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-twitter-square"></a></li>
-       <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-facebook-square"></a></li>
-        <li><a href="https://bit.ly/w88vietnamfc" target="_blank" class="fa fa-youtube-square"></a></li>
+       <li><a href="https://affiliate.w88wap.com/Track.aspx?affiliateid=42353&language=vn" target="_blank" class="fa fa-facebook-square"></a></li>
+        <li><a href="https://www.w88wasia.com/default.aspx?affiliateid=42353" target="_blank" class="fa fa-youtube-square"></a></li>
  </ul>
-            <a href="https://www.w88-yes.com"><h1>W88 🥇 Free 💵 👉</h1></a>
+            <a href="https://www.w88-yes.com"><h1>W88-yes.com</h1></a>
           </div>
         </div>
 
