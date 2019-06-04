@@ -37,7 +37,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
               <li><a href="https://www.w88wasia.com/default.aspx?affiliateid=42353" target="_blank" class="fa fa-usd-circle"></a></li>
               <li><a href="https://affiliate.w88wap.com/Track.aspx?affiliateid=42353&language=vn" target="_blank" class="fa fa-trophy-alt"></a></li>
             </ul>
-            <a href="https://www.w88-yes.com"><h1>W88 Tặng 300K Cược thử 👉</h1></a>
+            <a href="https://www.w88-yes.com"><h1>Nhận 300k cược thử👉</h1></a>
           </div>
         </div>
 
